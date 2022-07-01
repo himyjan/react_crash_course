@@ -19,7 +19,7 @@ const Home = () => {
         {a}
         <button onClick={plus}>加法</button>
         <Edit add={setData} />
-        <List listData={data}/>
+        <List listData={data} deleteData={setData}/>
     </div>
 }
 
